@@ -1,0 +1,32 @@
+{
+  "name": "react-redux-parcel-starter",
+  "version": "1.3.0",
+  "description": "ReactJs starter project with redux/thunk and dev proxy express setup, assembled with parcel-bundler",
+  "scripts": {
+    "dev": "parcel serve ./src/html/index.html",
+    "build": "PARCEL_BUNDLE_ANALYZER=1 parcel build ./src/html/index.html"
+  },
+  "repository": "https://github.com/rodion-raskolnikov/react-redux-parcel-starter",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "geo-xy": "^1.0.1",
+    "leaflet": "^1.9.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.16.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "whatwg-fetch": "^3.6.19"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}
